@@ -1,9 +1,9 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
 export const metadata: Metadata = {
-  title: "drischdaan.dev",
-  description: "Junior Web Developer",
+  title: 'drischdaan.dev',
+  description: 'Junior Web Developer',
 };
 
 export default function RootLayout({
@@ -13,9 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className='relative bg-zinc-950 text-white font-sora'>
+      <body className='relative h-[200vh] bg-zinc-950 font-sora text-white'>
         <div className='z-10'>{children}</div>
-        <div className='noise -z-10 absolute top-0 left-0 w-full h-full'></div>
+        <div className='noise absolute left-0 top-0 -z-10 h-full w-full'></div>
       </body>
     </html>
   );
