@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss';
+import colors from 'tailwindcss/colors';
 
 const config: Config = {
   content: [
@@ -11,6 +12,10 @@ const config: Config = {
       fontFamily: {
         sora: ['Sora', 'sans-serif'],
         raleway: ['Raleway', 'sans-serif'],
+      },
+      colors: {
+        primary: colors.fuchsia,
+        secondary: colors.cyan,
       },
     },
   },

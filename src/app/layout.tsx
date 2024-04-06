@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en'>
-      <body className='relative h-[200vh] bg-zinc-950 font-sora text-white'>
+      <body className='relative bg-black font-sora text-white'>
         <div className='z-10'>{children}</div>
         <div className='noise absolute left-0 top-0 -z-10 h-full w-full'></div>
       </body>
