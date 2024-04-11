@@ -1,10 +1,12 @@
 import { HomeTitle } from '../components/HomeTitle';
 import { Navbar } from '../components/Navbar';
 import { ScrollIndicator } from '../components/ScrollIndicator';
+import { ThreeCanvas } from '../components/ThreeCanvas';
 
 export default function Home() {
   return (
     <main className='content-container flex min-h-screen flex-col'>
+      <ThreeCanvas />
       <Navbar />
       <section
         id='landing'
