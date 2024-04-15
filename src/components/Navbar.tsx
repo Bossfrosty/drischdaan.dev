@@ -39,11 +39,11 @@ export function Navbar() {
         },
       }}
       className={
-        'content-container fixed left-0 right-0 top-0 z-50 w-full ' +
+        'fixed left-0 right-0 top-0 z-50 w-full border-b border-neutral-900 backdrop-blur backdrop-saturate-150 ' +
         (hasScrollProgress ? 'pointer-events-auto' : 'pointer-events-none')
       }
     >
-      <div className='flex items-center justify-between p-4'>
+      <div className='content-container flex items-center justify-between p-4'>
         <div className='text-xl text-white'>drischdaan</div>
         <div className='flex space-x-4 text-sm'>
           <Link href='#landing' className='text-zinc-400'>
